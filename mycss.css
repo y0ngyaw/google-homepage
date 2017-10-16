@@ -1,0 +1,154 @@
+header,
+body,
+footer{
+	font-family: Roboto;
+}
+
+.content{
+	display: block;
+	margin: 0 auto;
+	width: 98%;
+	min-width: 650px;
+	min-height: 100%;
+	position: relative;
+	margin-top: 200px;
+}
+
+.content .logo #google-logo{
+	display: block;
+	margin: auto;
+	width: 272px;
+	height: 92px;
+}
+
+.content .search-bar{
+	margin-top: 20px;
+}
+
+.content .search-bar form input{
+	width: 550px;
+	height: 35px;
+	display: block;
+	margin: auto;
+	background-color: white;
+	border: 1px solid #e1dbd6;
+	border-bottom: 2px solid #dedbda;
+	border-radius: 2px;
+}
+
+.buttons{
+	display: block;
+	width: 487px;
+	height: 60px;
+	margin: auto;
+	padding-top: 18px;
+
+}
+
+.buttons form{
+	margin: auto;
+}
+
+.buttons form input{
+	height: 36px;
+	line-height: 27px;
+	width: 126px;
+	min-width: 54px;
+	background: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	display: inline-block;
+	margin: 11px 4px;
+	font-size: 13px;
+	text-align: center;
+}
+
+.navbar{
+	display: block;
+	position: absolute;	
+	width: 98%;
+	top: 5px;
+	left: 25px;
+	right: 25px;
+	font-size: small;
+}
+
+.navbar .nav-left{
+	display: inline-block;
+	float: left;
+	margin-top: 17px;
+}
+
+.navbar .nav-left a{
+	text-decoration-line: none;
+	color: #000;
+	margin: 10px;
+}
+
+.navbar .nav-left a:hover{
+	text-decoration-line: underline;;
+}
+
+.navbar .nav-right{
+	display: inline-block;
+	float: right;
+	padding-right: 10px;
+}
+
+.navbar .nav-right a{
+	text-decoration-line: none;
+	color: #000;
+	margin: 10px;
+}
+
+.navbar .nav-right a:hover{
+	text-decoration-line: underline;
+}
+
+#signin-btn{
+	display: inline-block;
+	background-color: #4387fd;
+	color: #fff;
+	height: 30px;
+	width: 75px;
+	text-align: center;
+	border-radius: 3px;
+	padding-top: 7px;
+	height: 25px;
+}
+
+#signin-btn a:hover{
+	text-decoration-line: none;
+}
+
+footer{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	background-color: #f2f2f2;
+	width: 99%;
+	height: 25px;
+	padding-top: 8px;
+}
+
+.footer-bar .footer-left a,
+.footer-bar .footer-right a{
+	color: #666;
+	text-decoration-line: none;
+	display: inline-block;
+	margin: 0 10px;
+	font-size: small;
+}
+
+.footer-bar .footer-left a:hover,
+.footer-bar .footer-right a:hover{
+	text-decoration-line: underline;
+}
+
+.footer-bar .footer-left{
+	float: left;
+}
+
+.footer-bar .footer-right{
+	float: right;
+}
